@@ -1,0 +1,23 @@
+Package: mayoshiny
+Title: Templates for Shiny Apps at Mayo
+Version: 1.0.0
+Date: 2018-06-27
+Authors@R: c(
+    person("Ethan", "Heinzen", email = "heinzen.ethan@mayo.edu", role = c("aut", "cre")),
+    person("Jason", "Sinnwell", role="ctb"),
+    person("Elizabeth", "Atkinson", role="ctb"),
+    person("Brendan", "Broderick", role="ctb"),
+    person("Tejaswi", "Alaparthi", role="ctb")
+  )
+Description: Templates for Shiny Apps at Mayo.
+Suggests:
+    shiny,
+    shinythemes,
+    lubridate,
+    testthat
+Depends:
+    R (>= 3.4.2),
+    stats (>= 3.4.2)
+License: GPL (>= 2)
+RoxygenNote: 6.0.1
+LazyData: true

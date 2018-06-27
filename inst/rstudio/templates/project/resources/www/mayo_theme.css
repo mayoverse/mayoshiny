@@ -1,0 +1,58 @@
+
+body{background-color:#FFF; margin:0; font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;color:#1E1E1E;}
+
+/********* navbar themes *********/
+.navbar-default{background-color:#0046AD;border:none}
+.navbar-default .navbar-nav>li>a{color:#FFF}
+.navbar-default .navbar-nav>li>a:hover,
+  .navbar-default .navbar-nav>li>a:focus,
+  .navbar-default .navbar-nav>.active>a,
+  .navbar-default .navbar-nav>.active>a:hover,
+  .navbar-default .navbar-nav>.active>a:focus{color:#1E1E1E;background-color:#FFF}
+
+.navbar-default .navbar-header::before {
+  background-image: url("MC_stack_4c.png");
+  background-repeat: no-repeat;
+  background-color: #FFF;
+  background-position: center;
+  float: left;
+  height: 44px;
+  width: 44px;
+  margin: 3px;
+  margin-right: 15px;
+  border: 3px solid #FFF;
+  background-size:contain;
+}
+
+.navbar-default .navbar-brand{color:#FFF}
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{color:#FFF;background-color:transparent}
+
+a{color:#0046AD;}
+.nav-tabs{border-bottom-color:#0046AD;}
+.nav-tabs>li.active>a,
+  .nav-tabs>li.active>a:focus,
+  .nav-tabs>li.active>a:hover{color:inherit;border:1px solid #0046AD;border-bottom-color:transparent}
+
+/********* inputs themes *********/
+.well{background-color:#FFF;border:1px solid #0046AD;border-radius:4px;}
+
+.irs-from,.irs-to,.irs-single,.irs-bar,.irs-bar-edge,.irs-grid-pol{background-color:#0046AD;}
+.irs-bar,.irs-bar-edge{border-color:#0046AD;}
+
+.btn-primary{color:#ffffff;background-color:#0046AD;border-color:#0046AD}
+.btn-primary:focus,
+  .btn-primary.focus,
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary.active,
+  .btn-primary:active:hover,
+  .btn-primary.active:hover,
+  .btn-primary:active:focus,
+  .btn-primary.active:focus,
+  .btn-primary:active.focus,
+  .btn-primary.active.focus {color:#1E1E1E;background-color:#FFF;}
+
+/********* other custom themes *********/
+
+#disclaimer span {color: #f00;}
+
