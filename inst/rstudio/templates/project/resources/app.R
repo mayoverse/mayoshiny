@@ -13,8 +13,15 @@ ui <- navbarPage(
       tags$h5("Default actionButton:"),
       actionButton("action", "Search"),
 
+      dateInput("date", "Date"),
+      selectInput("selecter", "Select a thing", c("A", "B")),
+
       tags$h5("actionButton with CSS class:"),
-      actionButton("action2", "Action button", class = "btn-primary")
+      actionButton("action2", "Action button", class = "btn-primary"),
+      sliderInput("slider2", "Slider again:", 1, 5, 1:2),
+      dateRangeInput("daterange", "Range", Sys.Date(), Sys.Date() + 5),
+      radioButtons("rads", "Radio button:", c("A", "B"))
+      # submitButton()
     ),
     mainPanel(
       tabsetPanel(
@@ -42,7 +49,7 @@ ui <- navbarPage(
 
 server <- function(input, output) {
   output$txtout <- renderText({
-    paste(input$txt, input$slider, format(input$date), sep = ", ")
+    paste(input$txt, input$slider, format(input$date), input$rads, sep = ", ")
   })
 
   output$table <- renderTable({
