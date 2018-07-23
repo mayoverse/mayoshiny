@@ -1,7 +1,7 @@
 Package: mayoshiny
 Title: Templates for Shiny Apps at Mayo
-Version: 1.0.0
-Date: 2018-06-27
+Version: 1.1.0
+Date: 2018-07-23
 Authors@R: c(
     person("Ethan", "Heinzen", email = "heinzen.ethan@mayo.edu", role = c("aut", "cre")),
     person("Jason", "Sinnwell", role="ctb"),
