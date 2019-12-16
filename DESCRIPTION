@@ -1,9 +1,10 @@
 Package: mayoshiny
 Title: Templates for Shiny Apps at Mayo
-Version: 1.1.0
-Date: 2018-07-23
+Version: 1.1.0.9000
+Date: 2019-12-16
 Authors@R: c(
-    person("Ethan", "Heinzen", email = "heinzen.ethan@mayo.edu", role = c("aut", "cre")),
+    person("Pat", "Johnson", email = "johnson.patrick3@mayo.edu", role = c("aut", "cre")),
+    person("Ethan", "Heinzen", email = "heinzen.ethan@mayo.edu", role = "aut"),
     person("Jason", "Sinnwell", role="ctb"),
     person("Elizabeth", "Atkinson", role="ctb"),
     person("Brendan", "Broderick", role="ctb"),
@@ -21,3 +22,4 @@ Depends:
 License: GPL (>= 2)
 RoxygenNote: 6.0.1
 LazyData: true
+Encoding: UTF-8
