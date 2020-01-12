@@ -5,12 +5,14 @@
 \alias{use_mayoshiny}
 \title{Shiny Template for Mayo}
 \usage{
-mayo_shiny(path, ...)
+mayo_shiny(path, theme = c("classic", "horizon"), ...)
 
-use_mayoshiny(path, ...)
+use_mayoshiny(path, theme = c("classic", "horizon"), ...)
 }
 \arguments{
 \item{path}{A directory path for where to initialize the Shiny app.}
+
+\item{theme}{Name of a theme.}
 
 \item{...}{Other arguments (not in use at this time)}
 }

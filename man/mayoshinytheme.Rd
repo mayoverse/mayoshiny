@@ -4,7 +4,10 @@
 \alias{mayoshinytheme}
 \title{Use a Mayo Shiny Theme}
 \usage{
-mayoshinytheme()
+mayoshinytheme(theme = c("classic", "horizon"))
+}
+\arguments{
+\item{theme}{Name of a theme.}
 }
 \value{
 Returns a file path reference to the Mayo Shiny CSS file,

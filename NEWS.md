@@ -4,6 +4,8 @@
 
 * Use a custom bootstrap theme from `mayotheme`
 
+* Add a new `horizon` theme
+
 * Add a Mayo loader gif
 
 * `mayo_shiny` has been renamed to `use_mayoshiny`

@@ -29,9 +29,9 @@ License: GPL (>= 2)
 Depends:
     R (>= 3.4)
 Imports: 
-    shinycustomloader
+    shinycustomloader,
+    shiny
 Suggests:
-    shiny,
     mayotheme
 Encoding: UTF-8
 LazyData: true
