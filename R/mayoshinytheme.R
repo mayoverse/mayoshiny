@@ -18,5 +18,5 @@
 #' @export
 mayoshinytheme <- function() {
   shiny::addResourcePath("mayoshinythemes", mayoshinypath())
-  file.path("mayoshinythemes", "www", "bootstrap.css")
+  file.path("mayoshinythemes", "css", "bootstrap.css")
 }

@@ -1,0 +1,8 @@
+.brand-logo {
+    height: 40px;
+    padding-right: 5px;
+}
+
+.navbar-brand div { margin-top: -9px; }
+
+.loader-img { width: 100px !important; }

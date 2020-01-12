@@ -19,6 +19,6 @@ An easy-to-use, accessible template with Mayo colors and logo.
 }
 \details{
 Normally called when creating a new project in R Studio.
-   \code{mayoshiny} has been replaced by \code{use_mayoshiny} and will be removed in
-   future versions.
+   \code{mayoshiny} has been replaced by \code{use_mayoshiny}
+   and will be removed in future versions.
 }

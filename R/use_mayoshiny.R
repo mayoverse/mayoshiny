@@ -15,9 +15,10 @@ mayo_shiny <- function(path, ...) {
   }
   dir <- mayoshinypath()
   dir.create(path, recursive = TRUE, showWarnings = FALSE)
-  file.copy(file.path(dir, "app.R"), file.path(path, "app.R"))
-  file.copy(file.path(dir, "DESCRIPTION"), file.path(path, "DESCRIPTION"))
+  file.copy(file.path(dir, "r", "app.R"), file.path(path, "app.R"))
+  file.copy(file.path(dir, "other", "DESCRIPTION"), file.path(path, "DESCRIPTION"))
   dir.create(file.path(path, "data"))
+  dir.create(file.path(path, "www"))
 }
 
 #' @export
@@ -26,7 +27,5 @@ use_mayoshiny <- mayo_shiny
 
 
 mayoshinypath <- function() {
-  system.file(
-    "rstudio", "templates", "project", "resources",
-    package = "mayoshiny", mustWork = TRUE)
+  system.file("resources", package = "mayoshiny", mustWork = TRUE)
 }

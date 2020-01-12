@@ -10,5 +10,5 @@ mayo_loader <- function(ui_element) {
   shinycustomloader::withLoader(
     ui_element = ui_element,
     type = "image",
-    loader = "mayoshinythemes/www/loader.gif")
+    loader = "mayoshinythemes/images/loader.gif")
 }

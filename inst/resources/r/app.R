@@ -4,7 +4,7 @@ ui <- navbarPage(
   theme = mayoshiny::mayoshinytheme(),
   title = div(
     img(
-      src = "mayoshinythemes/www/logo_white.png",
+      src = "mayoshinythemes/images/logo_white.png",
       class = "brand-logo"
     ),
     "App Title"
