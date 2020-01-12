@@ -1,25 +1,38 @@
 Package: mayoshiny
 Title: Templates for Shiny Apps at Mayo
-Version: 1.1.0.9000
-Date: 2019-12-16
-Authors@R: c(
-    person("Pat", "Johnson", email = "johnson.patrick3@mayo.edu", role = c("aut", "cre")),
-    person("Ethan", "Heinzen", email = "heinzen.ethan@mayo.edu", role = "aut"),
-    person("Jason", "Sinnwell", role="ctb"),
-    person("Elizabeth", "Atkinson", role="ctb"),
-    person("Brendan", "Broderick", role="ctb"),
-    person("Tejaswi", "Alaparthi", role="ctb")
-  )
 Description: Templates for Shiny Apps at Mayo.
-Suggests:
-    shiny,
-    shinythemes,
-    lubridate,
-    testthat
-Depends:
-    R (>= 3.4.2),
-    stats (>= 3.4.2)
+URL: https://overdodactyl.github.io/mayoshiny/, https://github.com/overdodactyl/mayoshiny/
+Version: 2.0.0
+Date: 2019-12-16
+Authors@R: 
+    c(person(given = "Pat",
+             family = "Johnson",
+             role = c("aut", "cre"),
+             email = "johnson.patrick3@mayo.edu"),
+      person(given = "Ethan",
+             family = "Heinzen",
+             role = "aut",
+             email = "heinzen.ethan@mayo.edu"),
+      person(given = "Jason",
+             family = "Sinnwell",
+             role = "ctb"),
+      person(given = "Elizabeth",
+             family = "Atkinson",
+             role = "ctb"),
+      person(given = "Brendan",
+             family = "Broderick",
+             role = "ctb"),
+      person(given = "Tejaswi",
+             family = "Alaparthi",
+             role = "ctb"))
 License: GPL (>= 2)
-RoxygenNote: 6.0.1
-LazyData: true
+Depends:
+    R (>= 3.4)
+Imports: 
+    shinycustomloader,
+    shiny
+Suggests:
+    mayotheme
 Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2

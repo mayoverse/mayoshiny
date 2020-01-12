@@ -1,0 +1,17 @@
+template:
+  package: mayotemplate
+
+destination: docs
+
+reference:
+- title: Project Setup and Basic Usage
+  desc:  Create and use a Mayo-Themed R Shiny template
+  contents:
+  - use_mayoshiny
+  - mayo_shiny
+  - mayoshinytheme
+- title: General Features
+  desc: Simple customization and features
+  contents:
+  - mayo_loader
+  - disclaimer

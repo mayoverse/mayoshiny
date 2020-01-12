@@ -1,3 +1,9 @@
-Binding: mayo_shiny
+Binding: use_mayoshiny
 Title: Mayo Shiny App Template
 OpenFiles: app.R
+Parameter: theme
+Widget: SelectInput
+Label: Theme
+Fields: classic, horizon
+
+
