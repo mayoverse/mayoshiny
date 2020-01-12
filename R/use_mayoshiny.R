@@ -5,11 +5,11 @@
 #' @param path A directory path for where to initialize the Shiny app.
 #' @param ... Other arguments (not in use at this time)
 #' @details Normally called when creating a new project in R Studio.
-#'    \code{mayoshiny} has been replaced by \code{use_mayoshiny} and will be removed in
-#'    future versions.
+#'    \code{mayoshiny} has been replaced by \code{use_mayoshiny}
+#'    and will be removed in future versions.
 #' @export
 mayo_shiny <- function(path, ...) {
-  if (as.character(match.call()[[1]]) == "mayo_shiny") {
+  if ("mayo_shiny" %in% as.character(match.call()[[1]])) {
     warning(paste("please use use_mayoshiny() instead of mayo_shiny().",
             "mayo_shiny() will be removed in future versions"), call. = FALSE)
   }
