@@ -2,3 +2,9 @@ template:
   package: mayotemplate
 
 destination: docs
+
+reference:
+- title: Project Setup
+  desc:  Create Mayo-Themed R Shiny template
+  contents:
+  - use_mayoshiny

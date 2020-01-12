@@ -3,20 +3,7 @@
 \docType{package}
 \name{mayoshiny}
 \alias{mayoshiny}
-\alias{mayoshiny-package}
-\title{Templates for Shiny Apps at Mayo Clinic}
+\title{\code{mayoshiny} package}
 \description{
-Templates for Shiny Apps at Mayo Clinic.
-}
-\section{Functions}{
-
-
-\code{\link{mayo_shiny}}
-
-\code{\link{mayoshinytheme}}
-}
-
-\examples{
-library(mayoshiny)
-
+Templates for Shiny Apps at Mayo Clinic
 }

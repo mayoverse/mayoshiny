@@ -7,13 +7,15 @@
 mayoshinytheme()
 }
 \value{
-Returns a file path reference to the Mayo Shiny CSS file, and attaches that path so shiny knows about it.
+Returns a file path reference to the Mayo Shiny CSS file,
+    and attaches that path so shiny knows about it.
 }
 \description{
 Style a Shiny app with Mayo colors.
 }
 \details{
-Use this as the \code{theme = } argument to the main shiny page-builder functions, e.g., \code{\link[shiny]{fluidPage}}.
+Use this as the \code{theme = } argument to the main shiny
+    page-builder functions, e.g., \code{\link[shiny]{fluidPage}}.
 }
 \examples{
 \dontrun{
