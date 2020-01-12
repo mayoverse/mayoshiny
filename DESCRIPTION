@@ -1,6 +1,7 @@
 Package: mayoshiny
 Title: Templates for Shiny Apps at Mayo
 Description: Templates for Shiny Apps at Mayo.
+URL: https://overdodactyl.github.io/mayoshiny/, https://github.com/overdodactyl/mayoshiny/
 Version: 1.1.0.9000
 Date: 2019-12-16
 Authors@R: 

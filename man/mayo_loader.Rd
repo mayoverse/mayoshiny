@@ -4,8 +4,12 @@
 \alias{mayo_loader}
 \title{A custom Mayo themed loading gif}
 \usage{
-mayo_loader(ui_element, ...)
+mayo_loader(ui_element)
+}
+\arguments{
+\item{ui_element}{A UI element that should include a loader while the
+corresponding output is being calculated}
 }
 \description{
-A custom Mayo themed loading gif
+Add a loader that shows when an output element is calculating
 }
