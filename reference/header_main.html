@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Add a tab panel header — header_section • mayoshiny</title>
+<title>Add a main header — header_main • mayoshiny</title>
 
 
 <!-- jquery -->
@@ -34,8 +34,8 @@
 
 
 
-<meta property="og:title" content="Add a tab panel header — header_section" />
-<meta property="og:description" content="This function adds a header section to a Mayo shiny app.  It is only meant
+<meta property="og:title" content="Add a main header — header_main" />
+<meta property="og:description" content="This function adds a primary header to a Mayo shiny app.  It is only meant
     to be used with the the theme horizon" />
 <meta name="twitter:card" content="summary" />
 
@@ -107,28 +107,24 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Add a tab panel header</h1>
+    <h1>Add a main header</h1>
     <small class="dont-index">Source: <a href='https://github.com/overdodactyl/mayoshiny/blob/master/R/headers.R'><code>R/headers.R</code></a></small>
-    <div class="hidden name"><code>header_section.Rd</code></div>
+    <div class="hidden name"><code>header_main.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This function adds a header section to a Mayo shiny app.  It is only meant
+    <p>This function adds a primary header to a Mayo shiny app.  It is only meant
     to be used with the the theme <code>horizon</code></p>
     </div>
 
-    <pre class="usage"><span class='fu'>header_section</span>(<span class='no'>title</span>, <span class='no'>description</span>)</pre>
+    <pre class="usage"><span class='fu'>header_main</span>(<span class='no'>logo_text</span>)</pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>title</th>
-      <td><p>Section title</p></td>
-    </tr>
-    <tr>
-      <th>description</th>
-      <td><p>Sesction description</p></td>
+      <th>logo_text</th>
+      <td><p>Text to appear in the main header logo</p></td>
     </tr>
     </table>
 
