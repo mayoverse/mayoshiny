@@ -1,0 +1,13 @@
+Title: My Mayo-Themed Shiny App
+URL: my_mayo_app
+Version: 0.0.1
+Date: 2018-03-28
+Description: An app that shows off the Mayo-themed Shiny template.
+Authors@R: c(
+    person("First", "Last", email = "last.first@mayo.edu", role = c("aut", "cre")),
+    person("Another", "Author", role="aut"),
+    person("A. Third", "Author", role="aut"),
+    person("Measly", "Contributor", role="ctb")
+  )
+Depends: R (>= 3.4.2)
+Type: App
