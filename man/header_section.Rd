@@ -13,5 +13,5 @@ header_section(title, description)
 }
 \description{
 This function adds a header section to a Mayo shiny app.  It is only meant
-    to be used with the the theme \code{modern}
+    to be used with the the theme \code{horizon}
 }

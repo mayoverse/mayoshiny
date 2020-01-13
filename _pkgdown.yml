@@ -15,3 +15,12 @@ reference:
   contents:
   - mayo_loader
   - disclaimer
+- title: Horizon theme
+  desc: Functions used to supplement the horizon theme
+  contents:
+  - header_main
+  - header_section
+- title: Examples
+  desc: Vizualize sample templates
+  contents:
+  - mayoshiny_example

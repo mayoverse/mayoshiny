@@ -7,7 +7,7 @@ library(mayoshiny)
 
 ui <- fluidPage(title = "Mayo Clinic",
 
-  main_header("Shiny Template"),
+  header_main("Shiny Template"),
 
   navbarPage("",
     theme = mayoshiny::mayoshinytheme(theme = "horizon"),
