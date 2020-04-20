@@ -51,7 +51,7 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#toc">
     <div class="container template-news">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -86,7 +86,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/overdodactyl/mayoshiny">
+  <a href="https://github.com/overdodactyl/mayoshiny/">
     <span class="fab fa fab fa-github fa-lg"></span>
      
   </a>
@@ -104,12 +104,12 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Changelog <small></small></h1>
+      <h1 data-toc-skip>Changelog <small></small></h1>
       <small>Source: <a href='https://github.com/overdodactyl/mayoshiny/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
     </div>
 
     <div id="mayoshiny-2-0-0" class="section level1">
-<h1 class="page-header">
+<h1 class="page-header" data-toc-text="2.0.0">
 <a href="#mayoshiny-2-0-0" class="anchor"></a>mayoshiny 2.0.0</h1>
 <div id="major-changes" class="section level2">
 <h2 class="hasAnchor">
@@ -123,7 +123,7 @@
 </div>
 </div>
     <div id="mayoshiny-1-1-0" class="section level1">
-<h1 class="page-header">
+<h1 class="page-header" data-toc-text="1.1.0">
 <a href="#mayoshiny-1-1-0" class="anchor"></a>mayoshiny 1.1.0</h1>
 <div id="minor-changes" class="section level2">
 <h2 class="hasAnchor">
@@ -137,14 +137,10 @@
 </div>
   </div>
 
-  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
-    <div id="tocnav">
-      <h2>Contents</h2>
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="#mayoshiny-2-0-0">2.0.0</a></li>
-        <li><a href="#mayoshiny-1-1-0">1.1.0</a></li>
-      </ul>
-    </div>
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
+    <nav id="toc" data-toggle="toc" class="sticky-top">
+      <h2 data-toc-skip>Contents</h2>
+    </nav>
   </div>
 
 </div>
@@ -156,7 +152,7 @@
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.4.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
 </div>
 
       </footer>
