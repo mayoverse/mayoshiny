@@ -15,7 +15,7 @@ ui <- navbarPage(
   ),
   tabPanel(
     "Loader",
-    plotOutput("demo_loader") %>% mayo_loader()
+    mayoshiny::mayo_loader(plotOutput("demo_loader"))
   ),
   tabPanel("DISCLAIMER", mayoshiny::disclaimer())
 )
